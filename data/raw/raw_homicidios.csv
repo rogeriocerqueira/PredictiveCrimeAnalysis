@@ -1,0 +1,28 @@
+Município,UF,Região,População (2022),Homicídios registrados (A),Homicídios ocultos (B),Homicídios estimados (A+B),Taxa de homicídios estimados por 100 mil habitantes
+Salvador,BA,NE,2417678,1568,37,1605,66.4
+Macapá,AP,N,442932,241,3,244,55.8
+Manaus,AM,N,2063683,1130,19,1149,55.7
+Porto Velho,RO,N,550463,468,14,482,54.9
+Fortaleza,CE,NE,2482703,918,183,1101,45.3
+Recife,PE,NE,1690028,1003,13,1016,45.3
+Aracaju,SE,NE,667756,190,62,252,41.8
+Maceió,AL,NE,1029147,315,12,327,37.9
+Teresina,PI,NE,871126,242,6,248,28.5
+Boa Vista,RR,N,435406,96,4,100,23.0
+Natal,RN,NE,906551,334,5,339,22.4
+Palmas,TO,N,302692,83,3,86,21.9
+Porto Alegre,RS,S,1492530,329,7,336,22.5
+Vitória,ES,SE,327869,65,3,68,20.7
+São Luís,MA,NE,1133345,444,6,450,21.2
+Belém,PA,N,1303543,337,4,341,26.1
+Rio Branco,AC,N,420221,127,8,135,32.1
+João Pessoa,PB,NE,833932,196,8,204,24.5
+Rio de Janeiro,RJ,SE,6775561,1570,13,1583,23.4
+Curitiba,PR,S,1771738,361,11,372,21.0
+Campo Grande,MS,CO,939880,175,7,182,19.4
+Belo Horizonte,MG,SE,2512070,596,16,612,24.4
+Goiânia,GO,CO,1437566,213,5,218,15.1
+São Paulo,SP,SE,12325232,1233,32,1265,10.3
+Cuiabá,MT,CO,623614,115,9,124,19.9
+Brasília,DF,CO,3173187,48,8,56,1.8
+Florianópolis,SC,S,537211,48,0,48,8.9
