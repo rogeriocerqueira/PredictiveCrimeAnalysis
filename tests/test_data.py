@@ -60,3 +60,11 @@ def test_comparacao_de_modelos_roda(raw):
     res = compare_models(clean(raw))
     assert "Baseline (média)" in res.index
     assert res["MAE"].notna().all()
+
+
+def test_figuras_sao_geradas(tmp_path):
+    from crime_analysis.figures import build_all
+
+    paths = build_all(tmp_path)
+    assert len(paths) == 7
+    assert all(p.exists() and p.stat().st_size > 0 for p in paths)

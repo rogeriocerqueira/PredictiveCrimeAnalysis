@@ -13,6 +13,7 @@ def main(argv: list[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="cmd", required=True)
     sub.add_parser("process", help="Valida o CSV bruto e gera o CSV processado.")
     sub.add_parser("models", help="Compara modelos por validação cruzada leave-one-out.")
+    sub.add_parser("figures", help="Gera os gráficos e GIFs do README em docs/img/.")
     args = parser.parse_args(argv)
 
     if args.cmd == "process":
@@ -25,6 +26,11 @@ def main(argv: list[str] | None = None) -> int:
         print(f"{len(rep.avisos)} aviso(s); veja {config.VALIDATION_REPORT.relative_to(config.PROJECT_ROOT)}")
     elif args.cmd == "models":
         print(compare_models(load_processed()).to_string())
+    elif args.cmd == "figures":
+        from .figures import build_all
+
+        for p in build_all():
+            print(f"{p.relative_to(config.PROJECT_ROOT)}  ({p.stat().st_size / 1024:.0f} KB)")
     return 0
 
 
